@@ -8,7 +8,7 @@ Rollup preprocessor for Jest.
 ## Install
 
 ```bash
-npm install rollup-jest
+npm install rollup-jest --save-dev
 ```
 
 ## Usage
