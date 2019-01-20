@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`process should process 1`] = `
+"'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var noop3 = _interopDefault(require('noop3'));
+var url = require('url');
+
+const foo =  42;
+
+exports.noop = noop3;
+exports.URL = url.URL;
+exports.foo = foo;
+"
+`;

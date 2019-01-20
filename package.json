@@ -1,18 +1,40 @@
 {
   "name": "rollup-jest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rollup preprocessor for Jest",
+  "repository": "ambar/rollup-jest",
   "license": "MIT",
+  "engines": {
+    "node": ">=8.2.0"
+  },
+  "main": "transform.js",
   "scripts": {
     "prepare": "npm test",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch --notify"
   },
-  "files": [
-    "lib"
+  "keywords": [
+    "jest",
+    "rollup",
+    "testing"
   ],
+  "files": [
+    "jest-preset.js",
+    "transform.js"
+  ],
+  "jest": {
+    "preset": "./jest-preset"
+  },
+  "dependencies": {
+    "deasync": "^0.1.14"
+  },
+  "peerDependencies": {
+    "rollup": "^1.1.0"
+  },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "noop3": "^1000.0.0",
+    "rollup": "^1.1.0"
   }
 }
