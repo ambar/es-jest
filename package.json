@@ -1,11 +1,11 @@
 {
-  "name": "rollup-jest",
-  "version": "0.0.2",
-  "description": "Rollup preprocessor for Jest",
-  "repository": "ambar/rollup-jest",
+  "name": "esbuild-jest",
+  "version": "0.0.1",
+  "description": "esbuild preprocessor for Jest",
+  "repository": "ambar/esbuild-jest",
   "license": "MIT",
   "engines": {
-    "node": ">=8.2.0"
+    "node": ">=10"
   },
   "main": "transform.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "keywords": [
     "jest",
-    "rollup",
+    "esbuild",
     "testing"
   ],
   "files": [
@@ -27,14 +27,12 @@
     "preset": "./jest-preset"
   },
   "dependencies": {
-    "deasync": "^0.1.14"
-  },
-  "peerDependencies": {
-    "rollup": "^1.1.0"
+    "esbuild": "^0.8.18"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
+    "@types/jest": "^26.0.16",
+    "jest": "^26.6.3",
     "noop3": "^1000.0.0",
-    "rollup": "^1.1.0"
+    "react": "^17.0.1"
   }
 }

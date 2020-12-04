@@ -1,14 +1,14 @@
-# rollup-jest
+# esbuild-jest
 
-Rollup preprocessor for Jest.
+[esbuild](https://github.com/evanw/esbuild) preprocessor for Jest.
 
-[![build status](https://badgen.net/travis/ambar/rollup-jest)](https://travis-ci.org/ambar/rollup-jest)
-[![npm version](https://badgen.net/npm/v/rollup-jest)](https://www.npmjs.com/package/rollup-jest)
+[![build status](https://badgen.net/travis/ambar/esbuild-jest)](https://travis-ci.org/ambar/esbuild-jest)
+[![npm version](https://badgen.net/npm/v/esbuild-jest)](https://www.npmjs.com/package/esbuild-jest)
 
 ## Install
 
 ```bash
-npm install rollup-jest --save-dev
+npm install esbuild-jest --save-dev
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Add preset to Jest config:
 ```json
 {
   "jest": {
-    "preset": "rollup-jest"
+    "preset": "esbuild-jest"
   }
 }
 
@@ -26,7 +26,7 @@ Add preset to Jest config:
 {
   "jest": {
     "transform": {
-      "\\.m?js$": "rollup-jest"
+      "\\.[jt]sx?$": "esbuild-jest"
     },
   }
 }
@@ -46,5 +46,6 @@ Happy testing!
 
 ## Related
 
+- [rollup-jest](https://github.com/ambar/rollup-jest)
 - [babel-jest](https://github.com/facebook/jest/tree/master/packages/babel-jest)
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
