@@ -1,14 +1,14 @@
-# esbuild-jest
+# es-jest
 
-[esbuild](https://github.com/evanw/esbuild) preprocessor for Jest.
+ESM/React/TypeScript preprocessor for Jest, powered by [esbuild](https://github.com/evanw/esbuild).
 
-[![build status](https://badgen.net/travis/ambar/esbuild-jest)](https://travis-ci.org/ambar/esbuild-jest)
-[![npm version](https://badgen.net/npm/v/esbuild-jest)](https://www.npmjs.com/package/esbuild-jest)
+[![build status](https://badgen.net/travis/ambar/es-jest)](https://travis-ci.org/ambar/es-jest)
+[![npm version](https://badgen.net/npm/v/es-jest)](https://www.npmjs.com/package/es-jest)
 
 ## Install
 
 ```bash
-npm install esbuild-jest --save-dev
+npm install es-jest --save-dev
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Add preset to Jest config:
 ```json
 {
   "jest": {
-    "preset": "esbuild-jest"
+    "preset": "es-jest"
   }
 }
 
@@ -26,7 +26,7 @@ Add preset to Jest config:
 {
   "jest": {
     "transform": {
-      "\\.[jt]sx?$": "esbuild-jest"
+      "\\.[jt]sx?$": "es-jest"
     },
   }
 }

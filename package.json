@@ -1,8 +1,8 @@
 {
-  "name": "esbuild-jest",
+  "name": "es-jest",
   "version": "0.0.1",
   "description": "esbuild preprocessor for Jest",
-  "repository": "ambar/esbuild-jest",
+  "repository": "ambar/es-jest",
   "license": "MIT",
   "engines": {
     "node": ">=10"
