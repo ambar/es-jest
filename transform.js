@@ -13,6 +13,7 @@ exports.process = (code, file) => {
     format: 'cjs',
     loader: loader || 'js',
     sourcemap: 'inline',
+    sourcefile: file,
   }
   return transformSync(code, options).code
 }

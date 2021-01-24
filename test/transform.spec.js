@@ -24,4 +24,8 @@ describe('process', () => {
       /could not be resolved – treating it as an external dependency/
     )
   })
+
+  it('should add inline snapshot', () => {
+    expect(1).toMatchInlineSnapshot(`1`)
+  })
 })
