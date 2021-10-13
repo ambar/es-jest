@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/ambar/es-jest/compare/v1.3.0...v1.4.0) (2021-10-13)
+
+
+### Features
+
+* change version range of esbuild, match all 0.x versions ([9703110](https://github.com/ambar/es-jest/commit/9703110066736e97e16a3a42872ac55ba16613f8))
+
 ## [1.3.0](https://github.com/ambar/es-jest/compare/v1.1.0...v1.3.0) (2021-08-18)
 
 ### Features
