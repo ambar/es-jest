@@ -27,7 +27,7 @@
     "preset": "./jest-preset"
   },
   "dependencies": {
-    "esbuild": "^0.12.20"
+    "esbuild": "^0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.16",
