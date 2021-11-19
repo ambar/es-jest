@@ -4,6 +4,6 @@ const path = require('path')
 // https://jestjs.io/docs/en/configuration#transform-object-string-string
 module.exports = {
   transform: {
-    '\\.[jt]sx?$': path.resolve(__dirname, 'transform.js'),
+    '\\.(js|jsx|ts|tsx|mjs|cjs)?$': path.resolve(__dirname, 'transform.js'),
   },
 }
