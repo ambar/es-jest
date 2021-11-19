@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/ambar/es-jest/compare/v1.4.1...v1.5.0) (2021-11-19)
+
+
+### Features
+
+* add mjs/cjs to default extensions ([dce8a8e](https://github.com/ambar/es-jest/commit/dce8a8e5460b881de67b2bdbe364a43da85f3f6c))
+
 ## [1.4.0](https://github.com/ambar/es-jest/compare/v1.3.0...v1.4.0) (2021-10-13)
 
 
