@@ -5,7 +5,7 @@ const loaders = ['js', 'jsx', 'ts', 'tsx']
 const nodeVersion =
   process.env.NODE_ENV === 'test' ? '12' : process.versions.node
 
-exports.process = (code, file) => {
+exports.process = (input, file) => {
   const extname = path.extname(file)
   const loader = loaders.find((x) => `.${x}` === extname)
   const options = {
@@ -15,5 +15,7 @@ exports.process = (code, file) => {
     sourcemap: 'inline',
     sourcefile: file,
   }
-  return transformSync(code, options).code
+  // https://jestjs.io/docs/code-transformation#writing-custom-transformers
+  const {code, map} = transformSync(input, options)
+  return {code, map}
 }

@@ -30,8 +30,8 @@
     "esbuild": "^0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.16",
-    "jest": "^27.2.5",
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
     "noop3": "^1000.0.0",
     "prettier": "^2.2.1",
     "react": "^17.0.1"

@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`process should process 1`] = `
-"var __create = Object.create;
+Object {
+  "code": "var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
@@ -33,5 +34,7 @@ var import_noop3 = __toModule(require(\\"noop3\\"));
 var import_url = __toModule(require(\\"url\\"));
 const foo = 42;
 //# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi9udWxsLmpzIl0sCiAgInNvdXJjZXNDb250ZW50IjogWyJcbiAgICAgICAgZXhwb3J0IGNvbnN0IGZvbyA9ICA0MlxuICAgICAgICBleHBvcnQge2RlZmF1bHQgYXMgbm9vcH0gZnJvbSAnbm9vcDMnXG4gICAgICAgIGV4cG9ydCB7VVJMfSBmcm9tICd1cmwnXG4gICAgIl0sCiAgIm1hcHBpbmdzIjogIjs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBRVEsbUJBQThCO0FBQzlCLGlCQUFrQjtBQUZYLE1BQU0sTUFBTzsiLAogICJuYW1lcyI6IFtdCn0K
-"
+",
+  "map": "",
+}
 `;
