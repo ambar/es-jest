@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/ambar/es-jest/compare/v1.5.0...v2.0.0) (2022-06-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* support Jest 28
+
+### Features
+
+* support Jest 28 ([869aba6](https://github.com/ambar/es-jest/commit/869aba6b7c1f33f958e358b774815a88de3e89e0)), closes [#3](https://github.com/ambar/es-jest/issues/3)
+
 ## [1.5.0](https://github.com/ambar/es-jest/compare/v1.4.1...v1.5.0) (2021-11-19)
 
 
