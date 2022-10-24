@@ -30,6 +30,15 @@ Add preset to Jest config:
     },
   }
 }
+
+// you can also provide a custom esbuild config:
+{
+  "jest": {
+    "transform": {
+      "\\.[jt]sx?$": ["es-jest", { "jsx": "automatic" }]
+    },
+  }
+}
 ```
 
 Writes your test with ES modules:
