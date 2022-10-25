@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/ambar/es-jest/compare/v2.0.0...v2.1.0) (2022-10-25)
+
+
+### Features
+
+* add support for transformer config ([#4](https://github.com/ambar/es-jest/issues/4)) ([a3f7e56](https://github.com/ambar/es-jest/commit/a3f7e56a6356a59b113ebb1875fa51ebef15ded3))
+
 ## [2.0.0](https://github.com/ambar/es-jest/compare/v1.5.0...v2.0.0) (2022-06-13)
 
 
