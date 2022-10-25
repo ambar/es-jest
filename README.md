@@ -41,7 +41,7 @@ Add preset to Jest config:
 }
 ```
 
-Writes your test with ES modules:
+Write your tests with ES modules:
 
 ```js
 import path from 'path'
